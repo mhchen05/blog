@@ -1,0 +1,12 @@
+<!-- 畅言评论框 start -->
+<div class="ds-thread" data-thread-key="{{ post.id}}" data-title="{{ post.title }}" data-url="{{ post.get_absolute_url}}"></div>
+<!-- 畅言评论框 end -->
+<!-- 公共JS代码 start (一个网页只需插入一次)-->
+<div id="SOHUCS" ></div>
+<script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js" ></script>
+<script type="text/javascript">
+window.changyan.api.config({
+	appid: 'cyt41wjD7',
+	conf: 'prod_d43c9a2fa143922a0f8fc031e05c6be4'
+});
+</script>
